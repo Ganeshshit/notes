@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-left: 291px;
+    color: whitesmoke;
+}
+
+.note {
+    display: flex;
+}
+
+.Bjt {
+    margin-left: 60px;
+}
+
+.footer {
+
+
+    display: grid;
+
+    left: 400px;
+
+}
+.footer {
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    height: 250px;
+
+}
+.social {
+    margin-left: 857px;
+    margin-top: 31px;
+}
+#contact {
+    width: 100vw;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 338px;
+    display: inline;
+}
+.social {
+    display: flex;
+}
+
+.social a {
+    margin: 10px;
+}
+
+body {
+    background-color: black;
+}

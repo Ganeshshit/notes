@@ -1,0 +1,58 @@
+@media screen and (max-width:768px){
+    .top{
+        flex-direction: column;
+        margin: 0;
+    }
+    .middle{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .bottom{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .pyq{
+        width: 100vw;
+        height: 50vh;
+        margin: 0;
+        padding: 0;
+        background: url('exam.jpg') rgba(128, 128, 128, 0.726);
+        background-size: cover;
+     
+    }
+    .note{
+        width: 100vw;
+        align-items: center;
+        padding: 0;
+        /* margin-right: 89px; */
+        margin-left: -255px;
+    }
+    .navbar{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+.home{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+.social{
+    margin: 0;
+    padding: 0;
+
+}
+.pyq button{
+    padding: 0;
+    margin-top: 277px;
+    margin-left: 107px;
+}
+
+}

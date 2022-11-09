@@ -1,0 +1,19 @@
+@media  screen and (max-width:768px){
+.container h1{
+    margin: 0;
+    font-size: 23px;
+
+}
+.note{
+    flex-direction: column;
+    margin-top: 60px;
+}
+.card{
+ margin-top: 60px;
+}
+.social{
+    margin: 0;
+    padding: 0;
+
+}
+}

@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    position: fixed;
+}
+
+body {
+
+
+    color: #1f2605;
+    background-blend-mode: lighten;
+    background-color: #1f2605;
+
+    background-size: cover;
+    width: 100vw;
+}
+
+.navbar {
+    width: 100vw;
+
+}
+
+.top {
+
+    display: flex;
+    width: fit-content;
+    align-items: center;
+
+
+}
+
+.top .card {
+
+    margin-left: 10px;
+
+}
+
+
+.middle {
+    display: flex;
+
+
+
+
+}
+
+.middle .card {
+
+    margin-left: 10px;
+
+
+}
+
+.bottom {
+    display: flex;
+
+}
+
+.bottom .card {
+
+    margin-left: 10px;
+
+}
+
+.pyq {
+    width: 961px;
+    height: 624px;
+    background-image: url('exam.jpg');
+    background-size: cover;
+    color: #30dba8;
+    margin-left: 450px;
+}
+
+
+
+.pyq button {
+    font-size: 25px;
+    color: green;
+    background-color: yellow;
+    cursor: pointer;
+    margin-top: 350px;
+    border-bottom-left-radius: 17%;
+    width: 169px;
+    height: 69px;
+    margin-left: 114px;
+    border-top-left-radius: 37px;
+    border-end-start-radius: 34px;
+    border-end-end-radius: 28px;
+    border-top-right-radius: 35px;
+}
+
+.footer {
+
+
+    display: grid;
+
+    left: 400px;
+
+}
+
+.note {
+    margin-left: 161px;
+}
+
+.social {
+    display: flex;
+}
+
+.social a {
+    margin: 10px;
+}
+
+.crousel img {
+    width: 100vw;
+    height: 60vh;
+    color: gold;
+    flex-direction: column;
+
+}
+
+.crousel p {
+
+    color: gold;
+}
+
+.crousel h3 {
+    color: #34ebc3;
+}
+
+.card img {
+    height: 200px;
+}
+
+
+
+.card:hover {
+    border-color: rgba(13, 110, 253, 0.7);
+    box-shadow: 0px 0px 10px 2px rgba(13, 110, 253, 0.6);
+    border-color: rgb(253, 13, 233);
+    box-shadow: 10px 10px 5px 5px rgb(79, 81, 83);
+}
+
+.card {
+    transition: border-color 1s, box-shadow 0.3s;
+    left: 300px;
+
+    margin: 30px;
+}
+
+.social svg:hover {
+    /* bagcolor: green; */
+    background-color: rgba(83, 74, 74, 0.527);
+    border-color: rgba(49, 202, 230, 0.7);
+    box-shadow: 2px 5px 10px 2px rgba(62, 63, 65, 0.6);
+}
+
+.social svg {
+    transition: box-shadow 1s border-color 0.3s;
+
+}
+
+
+#contact {
+    width: 100vw;
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 338px;
+    display: inline;
+}
+
+.social {
+    margin-left: 857px;
+    margin-top: 31px;
+}
+
+.footer {
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 30px;
+    height: 250px;
+
+}
